@@ -659,9 +659,9 @@
         [self didChangeValueForKey:@"rootViewController"];
     }
 }
-- (void) setRootViewController:(UIViewController *)controller 
+- (void) setRootViewController:(UIViewController *)controller
 {
-    [self setRootViewController:controller replaceToOrigin:YES];
+    [self setRootViewController:controller replaceToOrigin:NO];
 }
 
 - (void) addShadow
